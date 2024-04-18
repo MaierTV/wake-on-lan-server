@@ -5,7 +5,7 @@ import socket
 import sys
 
 if len(sys.argv) < 3:
-    print ("Usage: wakeonlan.py <ADR> <MAC>     (example: 192.168.1.255 00:11:22:33:44:55)")
+    print ("Usage: wakeonlan.py <ADR> <MAC>     (example: 192.168.1.255 FF:FF:FF:FF:FF:FF)")
     sys.exit(1)
 
 mac = sys.argv[2]
